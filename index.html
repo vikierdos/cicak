@@ -9,6 +9,7 @@
     <meta name="author" content="Erdős Viktória">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="">Kinti cicák</a></li>
-                    <li><a href="">Benti cicák</a></li>
-                    <li><a href="">Macskajátékok</a></li>
-                    <li><a href="">Eseményeink</a></li>
+                    <li><a href="#kinti">Kinti cicák</a></li>
+                    <li><a href="#benti">Benti cicák</a></li>
+                    <li><a href="#jatekok">Macskajátékok</a></li>
+                    <li><a href="#esemenyek">Eseményeink</a></li>
                 </ul>
             </nav>
             <h1>Macskaland</h1>
@@ -32,11 +33,11 @@
             <h1>Milyen élete lesz a cicádnak?</h1>
             <p>Első körben fontos, hogy tudjuk, milyen körülmények között szeretnénk cicát tartani és milyen életet fogunk tudni neki biztosítani így fajta specifikusabban tudunk választani.</p>
             <ul class="button2">
-                <li><a href="">Kinti cica</a></li>
-                <li><a href="">Benti cica</a></li>
+                <li><a href="#kinti"><i class="fa fa-tree"></i>Kinti cica</a></li>
+                <li><a href="#benti"><i class="fa fa-home"></i>Benti cica</a></li>
             </ul>
         </article>
-        <article>
+        <article id="kinti">
             <h1>Kinti cicák</h1>
             <p>Az időjárás és a hőmérséklet nagyban befolyásolja, hogy egy macska kint tartható-e. Extrém hideg vagy meleg időjárás veszélyeztetheti a macska egészségét.</p>
             <h3>Amire mindenképpen figyelj:</h3>
@@ -45,21 +46,21 @@
                 <li>Legyen egy megfelelő menedéke</li>
                 <li>Mindig legyen élelme és vize</li>
             </ul>
-            <div>
+            <div id="cicagrid">
                 <div>
-                    <p>Norvég Erdei Macska</p>
-                    <img src="norveg%20macska.jpg" alt="Norvég Erdei Macska">
+                    <h2>Norvég Erdei Macska</h2>
+                    <img src="norveg%20macska.jpg" alt="Norvég Erdei Macska" class="cica">
                 </div>
                 <div>
-                    <p>Maine Coon</p>
-                    <img src="main%20coon.jpg" alt="Maine Coon">
+                    <h2>Maine Coon</h2>
+                    <img src="main%20coon.jpg" alt="Maine Coon" class="cica">
                 </div>
             </div>
             <ul class="button">
                 <li><a href="">Cicát szeretnék</a></li>
             </ul>
         </article>
-        <article>
+        <article id="benti">
             <h1>Benti Cicák</h1>
             <p>Amikor cicát tartasz bent, fontos néhány alapvető szempontot figyelembe venni annak érdekében, hogy a cica boldog és egészséges legyen. Íme néhány fontos dolog, amire figyelned kell:</p>
             <ul>
@@ -67,21 +68,21 @@
                 <li>Mindig legyen élelme és vize</li>
                 <li>Biztosítanod kell számára a napi aktivitást és sportot</li>
             </ul>
-            <div>
+            <div id="cicagrid">
                 <div>
-                    <p>Bengáli macska</p>
-                    <img src="bengali.jpg" alt="Bengáli macska">
+                    <h2>Bengáli macska</h2>
+                    <img src="bengali.jpg" alt="Bengáli macska" class="cica">
                 </div>
                 <div>
-                    <p>Meg ez a cica</p>
-                    <img src="meg%20ez%20a%20cica.jpg" alt="Meg ez a cica">
+                    <h2>Meg ez a cica</h2>
+                    <img src="meg%20ez%20a%20cica.jpg" alt="Meg ez a cica" class="cica">
                 </div>
             </div>
             <ul class="button">
                 <li><a href="">Cicát szeretnék</a></li>
             </ul>
         </article>
-        <article>
+        <article id="jatekok">
             <h1>Fedezd fel</h1>
             <div>
                 <div>
@@ -101,6 +102,25 @@
                     </ul>
                 </div>
             </div>
+        </article>
+        <article id="esemenyek">
+            <h1>Eseményeink</h1>
+                <div>
+                    <h3>2023.10.05.</h3>
+                    <h2>Macska show</h2>
+                    <p>A Macska Elegancia Szépségverseny egy felejthetetlen esemény, ahol a világ legszebb és legbájosabb macskái mérik össze szépségüket és eleganciájukat</p>
+                    <ul>
+                        <li><a href="">Jegyek<i class="fa fa-arrow-right"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>2023.10.15.</h3>
+                    <h2>Ügyességi vetélkedő</h2>
+                    <p>A Macskák Ügyességi Vetélkedője egy lenyűgöző esemény, ahol a legügyesebb és legügyesebb macskák mutathatják meg, milyen ügyesen és elegánsan teljesítenek különböző kihívásokat és akadálypályákat.</p>
+                    <ul>
+                        <li><a href="">Jelentkezem<i class="fa fa-arrow-right"></i></a></li>
+                    </ul>
+                </div>
         </article>
     </main>
 </body>
