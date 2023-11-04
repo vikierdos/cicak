@@ -17,8 +17,37 @@ article{
 }
 .cica{
     width: 100%;
-    box-shadow: 5px 5px 4px black;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
+}
+#jatekgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#jatekgrid div{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 10PX;
+    text-align: left;
+}
+#jatekgrid a{
+    color: white;
+}
+.jatekkep{
+    width: 30%;
+}
+
+#esemenygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#esemenygrid div{
+    
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 header{
     background-image: url(hero.jpg);
@@ -41,6 +70,8 @@ nav ul li{
     background-color: #DE7000;
     padding-top: 15px;
     padding-bottom: 15px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
 }
 a{
     text-decoration: none;
@@ -63,6 +94,8 @@ a{
     padding-bottom: 15px;
     background-color: #DE7000;
     margin-top: 20px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
     
 }
 .button li:nth-child(1){
@@ -81,6 +114,8 @@ a{
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #DE7000;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
     
 }
 #esemenyek ul{
@@ -106,7 +141,18 @@ h2{
 }
 p{
     text-align: center;
+    font-size: 18px;
+}
+#esemenyek p, #esemenyek h2, #esemenyek h3, #jatekok h2, #jatekok p{
+    text-align: left;
 }
 i{
     margin-right: 5px;
+    margin-left: 5px;
+}
+@media(min-width:850px){
+    main{
+        width: 70%;
+        margin: auto;
+    }
 }
