@@ -7,11 +7,11 @@ article{
     margin-top: 50px;
     
 }
-#cicagrid{
+.cicagrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#cicagrid div{
+.cicagrid div{
     margin-left: 20px;
     margin-right: 20px;
 }
